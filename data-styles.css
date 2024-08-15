@@ -1,0 +1,70 @@
+xml-rules {
+    display: block;
+    width: 100%;
+    background-color: gray;
+}
+
+/*CSS flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+rule {       
+    display: block;
+    width: 90%;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+title {
+    font-size: 2.0em;
+    color: green;
+    background-color: aquamarine;
+    display: block;
+}
+
+heading {
+    display: block;
+    padding: 2px;
+    margin-bottom: 2px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+description {    
+    display: block;
+    padding: 2px;
+    margin-bottom: 5px;
+    font-size: 1.0em;
+}
+
+example {
+    display: block;
+    padding: 2px;
+    margin-bottom: 20px;
+    font-size: 1.0em;
+    color: blue;
+    font-style: italic;
+}
+
+
+/*-------------------------------------------------*/
+/*RESPONSIVE CSS*/
+/*THUMB RULE: Mobile First
+  Use min-width to detect device screen size.
+  min-width: 768px means that "when viewport is 768px or larger (Tablet or PC), set these styles; 
+             otherwise (Mobile) set above styles"  
+*/
+@media screen and (min-width: 768px) {
+	xml-rules {
+		display: flex;
+		flex-flow: row wrap;
+	}
+	title { 
+		width: 100%;
+	}
+	
+    rule {       
+        width: 45%;
+		margin: 10px;
+		border: 2px solid black;
+        /*display: inline-block;
+		vertical-align: top;*/
+    }
+}
