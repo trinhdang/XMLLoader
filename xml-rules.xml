@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="data-styles.css" ?>
+<!--Above is XML declaration-->
+<!--Root node/element(tag)-->
+<xml-rules>
+    <title>SIX XML RULES</title>
+    <!--Child nodes/element 1-->
+    <rule>
+        <!--Nested children nodes/elements (tag)-->
+        <heading>Rule 1: XML Documents Must Have a Root Element</heading>
+        <description>XML documents must contain one root element that is the parent of all other elements</description>
+        <example>
+			ed a sem et sapien sodales interdum. Nunc nec felis feugiat,
+            auctor orci eu, molestie justo. Curabitur ut lorem eleifend,
+            pharetra sem a,
+        </example>
+    </rule>
+    
+    <!--Child node/element 2-->
+     <rule>
+        <!--Nested children nodes/elements (tag)-->
+        <heading>Rule 2: Lorem Ipsum</heading>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at tincidunt diam, quis blandit diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse vitae massa sed dolor dignissim blandit et a mauris. </description>
+        <example>
+            ed a sem et sapien sodales interdum. Nunc nec felis feugiat,
+            auctor orci eu, molestie justo. Curabitur ut lorem eleifend,
+            pharetra sem a,
+        </example>
+    </rule>   
+    
+    <!--Child node/element 3-->
+     <rule>
+        <!--Nested children nodes/elements (tag)-->
+        <heading>Rule 3:  Lorem Ipsum</heading>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at tincidunt diam, quis blandit diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse vitae massa sed dolor dignissim blandit et a mauris. </description>
+        <example>
+			Nunc nec felis feugiat, auctor orci eu, molestie justo. Curabitur ut lorem eleifend
+        </example>
+    </rule>  
+
+    <!--Child node/element 4-->
+     <rule>
+        <!--Nested children nodes/elements (tag)-->
+        <heading>Rule 4:  Lorem Ipsum</heading>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at tincidunt diam, quis blandit diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse vitae massa sed dolor dignissim blandit et a mauris. </description>
+        <example>
+			ed a sem et sapien sodales interdum. Nunc nec felis feugiat, auctor orci eu, molestie justo. Curabitur ut lorem eleifend, pharetra sem a,
+        </example>
+    </rule> 
+	
+    <!--Child node/element 5-->
+     <rule>
+        <!--Nested children nodes/elements (tag)-->
+        <heading>Rule 5:  Lorem Ipsum</heading>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at tincidunt diam, quis blandit diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse vitae massa sed dolor dignissim blandit et a mauris. </description>
+        <example>
+			ed a sem et sapien sodales interdum. Nunc nec felis feugiat, auctor orci eu, molestie justo. Curabitur ut lorem eleifend, pharetra sem a,
+        </example>
+    </rule> 	
+	
+    <!--Child node/element 6-->
+     <rule>
+        <!--Nested children nodes/elements (tag)-->
+        <heading>Rule 6:  Lorem Ipsum</heading>
+        <description>Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse vitae massa sed dolor dignissim blandit et a mauris.</description>
+        <example>
+			ed a sem et sapien sodales interdum. Nunc nec felis feugiat, auctor orci eu, molestie justo. Curabitur ut lorem eleifend, pharetra sem a,
+        </example>
+    </rule> 	
+	
+</xml-rules>
